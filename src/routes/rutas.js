@@ -13,6 +13,4 @@ rutas.delete('/producto/:id', controladores.eliminarProducto)
 
 rutas.put('/producto/:id', controladores.editarProducto)
 
-//router.get('/eliminarProducto/:id', controladores.eliminarProductoPorId)
-
 export default rutas

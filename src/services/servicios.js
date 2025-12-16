@@ -54,11 +54,3 @@ export const obtenerProductoPorId = async (id) => {
         }
     })
 }
-
-/*export const eliminarProductoPorId = async (id) => {
-    const productos = await obtenerProductos()
-    const productosModificado = productos.filter(producto => producto.id !== id)
-    await modelos.reescribirProductos(productosModificado)
-    const productosReescrito = await obtenerProductos()
-    return productosModificado
-}*/
