@@ -1,5 +1,5 @@
 # Proyecto final de Talento Tech 2025 [Curso Node Js]
-En este repositorio se presenta un servidor hecho con Node Js + Express js usando como base de datos firebase, en especifico firestorm. El servidor presenta una API Rest la cual puede realizar todas las operaciones CRUD que se necesiten, además de soportar autenticacion con JWT.
+En este repositorio se presenta un servidor hecho con Node Js + Express js usando como base de datos Firebase, en específico Firestorm. El servidor presenta una API Rest la cual puede realizar todas las operaciones CRUD que se necesiten, además de soportar autenticacion con JWT.
 
 ## Login
 
@@ -11,9 +11,9 @@ Para poder tener acceso a los endpoints primero el usuario debe loguearse, en es
 }
 ```
 
-Dicho objeto json debera ser pasado al body de la operacion **POST https://proyecto-final-tt-node.vercel.app/api/login**
+Dicho objeto json deberá ser pasado al body de la operacion **POST https://proyecto-final-tt-node.vercel.app/api/login**
 
-El servidor devolvera un token que sera necesario como autenticacion para poder acceder a los endpoints.
+El servidor devolverá un token que será necesario como autenticación para poder acceder a los endpoints.
 
 ## Endpoints
 - **GET https://proyecto-final-tt-node.vercel.app/api/productos** devolverá todos los productos de la base de datos.
