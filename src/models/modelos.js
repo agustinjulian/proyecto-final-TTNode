@@ -58,7 +58,7 @@ export function actualizarProducto(id, producto){
         try{
             await updateDoc(doc(db, 'products', id), producto)
             console.log('producto actualizado')
-            res({})
+            res(producto)
         }catch(error){
             console.log(error)
             rej(error)
