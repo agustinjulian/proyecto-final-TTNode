@@ -11,9 +11,7 @@ Para poder tener acceso a los endpoints primero el usuario debe loguearse, en es
 }
 ```
 
-dicho objeto json debera ser pasado al body de la consulta
-
-**POST https://proyecto-final-tt-node.vercel.app/api/login**
+Dicho objeto json debera ser pasado al body de la operacion **POST https://proyecto-final-tt-node.vercel.app/api/login**
 
 El servidor devolvera token que sera necesario como autenticacion para poder acceder a los endpoints.
 
